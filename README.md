@@ -22,27 +22,45 @@ Semester: 4
 
 SSC Percentage: 78%
 
-Technical Skills
+#Technical Skills
 
 Chemical Process Fundamentals
+
 MS Office
+
 Internet Research
+
 Basic Computer Knowledge
+
 Git & GitHub (Learning)
-Languages
+
+#Languages
+
 Gujarati
+
 Hindi
+
 English
-Strengths
+
+#Strengths
+
 Quick Learner
+
 Team Collaboration
+
 Communication Skills
+
 Problem Solving
+
 Self-Motivated
-Interests
-Reading
+
+#Interests
+
 Drawing
+
 Chemical Technology
+
 Learning New Skills
+
 LinkedIn
 www.linkedin.com/in/chirag-rathod-b5b545376⁠�
