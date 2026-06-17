@@ -2,19 +2,47 @@
 my cv
 
 Chirag Rathod
-#contact
- Mobile: 7016902352
- Email: sanjayrathod07870787@gmail.com
- LinkedIn: www.linkedin.com/in/chirag-rathod-b5b545376
- --
+📍 Navingari, Pipliya, Bharuch, Gujarat – 392020
+
+📧 sanjayrathod07870787@gmail.com
+
+📱 +91 7016902352
+
 #Career Objective
-Seeking an internship in the Chemical Engineering field to gain practical 
-industrial experience, enhance technical knowledge, and contribute effectively 
-while learning from industry professionals.
----
+
+Chemical Engineering Diploma student seeking internship opportunities to apply technical knowledge, gain industrial exposure, and develop professional skills in the chemical industry.
+
 #Education
-Qualification Institute Performance
-Diploma incal Engineering (Semester 4) Shree K.J. Polytechnic
-Pursuing
-SSC (10th Standard) Gujarat Board 78%
----
+
+Diploma in Chemical Engineering
+
+Shree K.J. Polytechnic
+
+Semester: 4
+
+SSC Percentage: 78%
+
+Technical Skills
+
+Chemical Process Fundamentals
+MS Office
+Internet Research
+Basic Computer Knowledge
+Git & GitHub (Learning)
+Languages
+Gujarati
+Hindi
+English
+Strengths
+Quick Learner
+Team Collaboration
+Communication Skills
+Problem Solving
+Self-Motivated
+Interests
+Reading
+Drawing
+Chemical Technology
+Learning New Skills
+LinkedIn
+www.linkedin.com/in/chirag-rathod-b5b545376⁠�
