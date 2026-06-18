@@ -8,175 +8,197 @@ my cv
 <title>Chirag Rathod Portfolio</title>
 
 <style>
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
 }
 
 body{
-    background:linear-gradient(135deg,#f7f7ff,#dff7ff);
-    color:#222;
+background:linear-gradient(135deg,#f7f7ff,#dff7ff);
+color:#222;
 }
 
 nav{
-    width:90%;
-    margin:20px auto;
-    background:white;
-    padding:15px;
-    border-radius:50px;
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+position:sticky;
+top:10px;
+width:90%;
+margin:20px auto;
+background:white;
+padding:15px;
+border-radius:50px;
+display:flex;
+justify-content:center;
+gap:30px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+z-index:100;
 }
 
 nav a{
-    text-decoration:none;
-    color:black;
-    font-weight:bold;
+text-decoration:none;
+color:black;
+font-weight:bold;
 }
 
 section{
-    width:90%;
-    margin:auto;
-    padding:60px 0;
-}
-
-.title{
-    font-size:55px;
-    font-weight:bold;
-}
-
-.title span{
-    color:#6b4eff;
+width:90%;
+margin:auto;
+padding:70px 0;
 }
 
 .hero{
-    display:flex;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    gap:30px;
+text-align:center;
+padding:80px 20px;
 }
 
-.hero-text{
-    flex:1;
-    min-width:300px;
+.profile{
+width:180px;
+height:180px;
+border-radius:50%;
+border:5px solid #7a3cff;
+object-fit:cover;
+margin-bottom:20px;
 }
 
-.hero-card{
-    flex:1;
-    min-width:300px;
+.hero h1{
+font-size:60px;
+}
+
+.hero span{
+color:#7a3cff;
+}
+
+.hero p{
+margin-top:15px;
+font-size:18px;
+}
+
+.title{
+font-size:50px;
+font-weight:bold;
+margin-bottom:30px;
+}
+
+.title span{
+color:#7a3cff;
 }
 
 .card{
-    background:white;
-    padding:20px;
-    border-radius:20px;
-    margin-bottom:15px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+background:white;
+padding:25px;
+border-radius:20px;
+margin-bottom:20px;
+box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
 
 .skills-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 }
 
 .skill-card{
-    background:white;
-    padding:20px;
-    border-radius:20px;
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
 
 ul{
-    margin-top:10px;
+margin-top:10px;
+padding-left:20px;
 }
 
 li{
-    margin:8px 0;
+margin:8px 0;
 }
 
 .contact{
-    text-align:center;
-    background:white;
-    padding:40px;
-    border-radius:25px;
+background:white;
+padding:40px;
+border-radius:25px;
+text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
 
 .btn{
-    display:inline-block;
-    padding:12px 25px;
-    background:#7a3cff;
-    color:white;
-    text-decoration:none;
-    border-radius:30px;
-    margin:10px;
+display:inline-block;
+padding:12px 25px;
+background:#7a3cff;
+color:white;
+text-decoration:none;
+border-radius:30px;
+margin:10px;
 }
+
+footer{
+text-align:center;
+padding:20px;
+}
+
 </style>
 </head>
+
 <body>
 
 <nav>
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
 <a href="#education">Education</a>
+<a href="#projects">Projects</a>
 <a href="#contact">Contact</a>
 </nav>
 
 <section id="about">
+
 <div class="hero">
 
-<div class="hero-text">
-<h1 class="title">Who I <span>Am</span></h1>
-<br>
+<img src="https://via.placeholder.com/180" class="profile">
+
+<h1>Chirag <span>Rathod</span></h1>
+
 <p>
-Hello! I am <b>Chirag Rathod</b>, a Diploma Chemical Engineering
-student at <b>Shree K.J. Polytechnic</b>.
+Diploma Chemical Engineering Student
+<br>
+Shree K.J. Polytechnic | Semester 4
+</p>
+
+<br>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</div>
+
+<div class="card">
+<h2>Who I Am</h2>
+
+<p>
+Hello! I am Chirag Rathod from Bharuch, Gujarat.
+I am a Diploma Chemical Engineering student currently
+studying in Semester 4 at Shree K.J. Polytechnic.
 </p>
 
 <br>
 
 <p>
-I am currently studying in Semester 4 and interested in
-chemical processes, industrial operations, technology,
-and learning new skills.
+I am interested in chemical industries, industrial
+operations, process engineering, and technology.
+I enjoy learning new things and improving my skills.
 </p>
 
-<br>
-
-<p>
-Skills: Reading, Drawing, Communication, Teamwork,
-Problem Solving.
-</p>
 </div>
 
-<div class="hero-card">
-
-<div class="card">
-📚 Reading
-</div>
-
-<div class="card">
-🎨 Drawing
-</div>
-
-<div class="card">
-🧪 Chemical Engineering
-</div>
-
-<div class="card">
-💻 Basic Computer Skills
-</div>
-
-</div>
-</div>
 </section>
 
 <section id="skills">
+
 <h1 class="title">My <span>Skills</span></h1>
-<br>
 
 <div class="skills-grid">
 
@@ -187,6 +209,7 @@ Problem Solving.
 <li>MS Word</li>
 <li>MS Excel</li>
 <li>Internet Research</li>
+<li>Basic Computer Skills</li>
 </ul>
 </div>
 
@@ -195,23 +218,60 @@ Problem Solving.
 <ul>
 <li>Communication</li>
 <li>Teamwork</li>
-<li>Time Management</li>
 <li>Problem Solving</li>
+<li>Time Management</li>
+<li>Leadership</li>
+</ul>
+</div>
+
+<div class="skill-card">
+<h3>Interests</h3>
+<ul>
+<li>Reading</li>
+<li>Drawing</li>
+<li>Technology</li>
+<li>Learning New Skills</li>
 </ul>
 </div>
 
 </div>
+
 </section>
 
 <section id="education">
+
 <h1 class="title">Academic <span>Background</span></h1>
-<br>
 
 <div class="card">
+
 <h2>Diploma in Chemical Engineering</h2>
+
 <p>Shree K.J. Polytechnic</p>
-<p>Semester 4</p>
-<p>SSC Percentage: 78%</p>
+
+<p>Current Semester : 4</p>
+
+<p>SSC Percentage : 78%</p>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h1 class="title">My <span>Projects</span></h1>
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>
+Personal portfolio website created using HTML and CSS.
+</p>
+</div>
+
+<div class="card">
+<h3>Chemical Process Study</h3>
+<p>
+Study and understanding of industrial chemical processes.
+</p>
 </div>
 
 </section>
@@ -219,27 +279,30 @@ Problem Solving.
 <section id="contact">
 
 <div class="contact">
+
 <h1 class="title">Let's <span>Work Together</span></h1>
 
-<br>
+<p>Email : sanjayrathod07870787@gmail.com</p>
 
-<p>Email: sanjayrathod07870787@gmail.com</p>
-<p>Mobile: 7016902352</p>
-<p>Location: Bharuch, Gujarat</p>
+<p>Mobile : 7016902352</p>
 
-<br>
+<p>Address : Navingari, Pipliya, Bharuch, Gujarat - 392020</p>
 
-<a class="btn" href="mailto:sanjayrathod07870787@gmail.com">
+<a href="mailto:sanjayrathod07870787@gmail.com" class="btn">
 Email Me
 </a>
 
-<a class="btn" href="https://www.linkedin.com">
+<a href="https://www.linkedin.com/in/chirag-rathod-b5b545376" class="btn">
 LinkedIn
 </a>
 
 </div>
 
 </section>
+
+<footer>
+© 2026 Chirag Rathod | Portfolio Website
+</footer>
 
 </body>
 </html>
