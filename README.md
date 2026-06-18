@@ -1,7 +1,5 @@
 # cv.github.io
 my cv
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
